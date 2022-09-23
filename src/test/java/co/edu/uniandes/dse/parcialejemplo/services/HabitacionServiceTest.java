@@ -72,7 +72,7 @@ class HabitacionServiceTest {
         assertEquals(newEntity.getN_personas(), entity.getN_personas());
     }
     @Test
-    void testAddInvalidHotel()
+    void testAddInvalidHabitacion()
     {
         assertThrows(IllegalOperationException.class, () -> {
             HabitacionEntity habitacion = factory.manufacturePojo(HabitacionEntity.class);
